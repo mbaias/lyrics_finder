@@ -62,7 +62,8 @@ module.exports = {
                 "allowTemplateLiterals": true
             }
         ],
-        "react/destructuring-assignment": [1, "always"]
+        "react/destructuring-assignment": [1, "always"],
+        "react/prop-types": 0
     },
     "plugins": [
         "prettier"
