@@ -61,7 +61,8 @@ module.exports = {
                 "avoidEscape": true,
                 "allowTemplateLiterals": true
             }
-        ]
+        ],
+        "react/destructuring-assignment": [1, "always"]
     },
     "plugins": [
         "prettier"

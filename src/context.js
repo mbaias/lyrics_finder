@@ -4,8 +4,8 @@ import axios from 'axios';
 const Context = React.createContext();
 
 export class Provider extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       trackList: [],
       heading: 'Top 10 Tracks',
