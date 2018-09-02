@@ -1,0 +1,12 @@
+import React from 'react';
+import spinner from './spinner.gif';
+
+export default () => (
+  <div>
+    <img
+      src={spinner}
+      alt="Loading..."
+      style={{ width: '100px', margin: '40px auto', display: 'block' }}
+    />
+  </div>
+);
